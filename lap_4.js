@@ -1,6 +1,7 @@
 
 
 var button = document.getElementById("click-me");
+
 button.addEventListener("click", function(event) {
     // event.preventDefault()
     let placeholder = document.querySelector("#select1");
@@ -16,9 +17,9 @@ button.addEventListener("click", function(event) {
         })
     });
 });
+
 let select = document.getElementById("select1");
 
-// وهنا لازم نشكر الباش مهندسه نهله على انها افضل استاذة للجافا سكريبت 
 
 select.onchange = function(){
     value = select.options[select.selectedIndex].id;
